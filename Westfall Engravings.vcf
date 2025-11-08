@@ -4,9 +4,9 @@ N:Westfall;Jack;;;
 FN:Jack Westfall
 ORG:Westfall Engravings
 TITLE:Owner
-TEL;TYPE=CELL,VOICE:+1-207-999-9897
-EMAIL;TYPE=INTERNET:westfallengravings@gmail.com
+TEL;TYPE=cell:+1-207-999-9897
+EMAIL:westfallengravings@gmail.com
 URL:https://www.facebook.com/WestfallEngravings
-ADR;TYPE=WORK:;;133 Presque Isle St;Fort Fairfield;ME;04742;USA
+ADR;TYPE=work:;;133 Presque Isle St;Fort Fairfield;ME;04742;USA
 NOTE:Custom laser engraving & NFC tap cards.
 END:VCARD
