@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Westfall;Jack;;;
+FN:Jack Westfall
+ORG:Westfall Engravings
+TITLE:Owner
+TEL;TYPE=cell:+1-207-999-9897
+EMAIL:westfallengravings@gmail.com
+URL:https://www.facebook.com/WestfallEngravings
+ADR;TYPE=work:;;133 Presque Isle St;Fort Fairfield;ME;04742;USA
+NOTE:Custom laser engraving & NFC tap cards.
+END:VCARD
