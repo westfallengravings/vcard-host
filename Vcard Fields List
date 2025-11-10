@@ -1,0 +1,59 @@
+BEGIN:VCARD
+VERSION:3.0
+N:LastName;FirstName;MiddleName;Prefix;Suffix
+FN:Full Name
+ORG:Company or Organization
+TITLE:Job Title
+TEL;TYPE=cell:+1-207-999-9897
+EMAIL;TYPE=work:example@email.com
+URL:https://example.com
+ADR;TYPE=work:;;Street;City;State;Zip;Country
+NOTE:Custom notes or description
+END:VCARD
+
+
+| Field                        | Description             | Example                                                           |
+| ---------------------------- | ----------------------- | ----------------------------------------------------------------- |
+| `N:`                         | Name components         | `N:Westfall;Jack;;;`                                              |
+| `FN:`                        | Formatted name          | `FN:Jack Westfall`                                                |
+| `ORG:`                       | Organization / Business | `ORG:Westfall Engravings`                                         |
+| `TITLE:`                     | Job title or position   | `TITLE:Owner`                                                     |
+| `TEL;TYPE=cell:`             | Phone number            | `TEL;TYPE=cell:+1-207-999-9897`                                   |
+| `TEL;TYPE=work:`             | Work phone              | `TEL;TYPE=work:+1-207-555-1234`                                   |
+| `EMAIL;TYPE=work:`           | Work email              | `EMAIL;TYPE=work:westfallengravings@gmail.com`                    |
+| `URL:`                       | Website or social link  | `URL:https://www.facebook.com/WestfallEngravings`                 |
+| `ADR;TYPE=work:`             | Address                 | `ADR;TYPE=work:;;133 Presque Isle St;Fort Fairfield;ME;04742;USA` |
+| `NOTE:`                      | Custom note             | `NOTE:Custom laser engraving & NFC tap cards.`                    |
+| `PHOTO;TYPE=JPEG;VALUE=URI:` | Profile image link      | `PHOTO;TYPE=JPEG;VALUE=URI:https://yourdomain.com/photo.jpg`      |
+| `LOGO;TYPE=PNG;VALUE=URI:`   | Business logo           | `LOGO;TYPE=PNG;VALUE=URI:https://yourdomain.com/logo.png`         |
+| `BDAY:`                      | Birthday (YYYY-MM-DD)   | `BDAY:1990-05-14`                                                 |
+| `CATEGORIES:`                | Tags for sorting        | `CATEGORIES:Engraving,Business,Local`                             |
+| `REV:`                       | Last revision timestamp | `REV:20251110T160000Z`                                            |
+
+| Field               | Purpose                             | Example                                                                 |
+| ------------------- | ----------------------------------- | ----------------------------------------------------------------------- |
+| `GEO:`              | GPS coordinates                     | `GEO:46.7721,-67.8334`                                                  |
+| `IMPP:`             | Instant messaging (Skype, etc.)     | `IMPP:skype:jackwestfall`                                               |
+| `X-SOCIALPROFILE:`  | Social media link (Apple-supported) | `X-SOCIALPROFILE;type=facebook:https://facebook.com/WestfallEngravings` |
+| `X-SKYPE:`          | Skype handle                        | `X-SKYPE:jack.westfall`                                                 |
+| `X-TWITTER:`        | Twitter handle                      | `X-TWITTER:@WestfallEngraves`                                           |
+| `X-ABSHOWAS:`       | Display as company/person (Apple)   | `X-ABSHOWAS:COMPANY`                                                    |
+| `X-ABRELATEDNAMES:` | Custom related names                | `X-ABRELATEDNAMES;type=assistant:Jane Doe`                              |
+
+Example of full business Card
+BEGIN:VCARD
+VERSION:3.0
+N:Westfall;Jack;;;
+FN:Jack Westfall
+ORG:Westfall Engravings
+TITLE:Owner
+TEL;TYPE=cell:+1-207-999-9897
+EMAIL;TYPE=work:westfallengravings@gmail.com
+URL:https://www.facebook.com/WestfallEngravings
+ADR;TYPE=work:;;133 Presque Isle St;Fort Fairfield;ME;04742;USA
+NOTE:Custom laser engraving & NFC tap cards for any occasion.
+LOGO;TYPE=PNG;VALUE=URI:https://westfallengravings.github.io/logo.png
+CATEGORIES:Engraving,NFC Cards,Local Business
+REV:20251110T120000Z
+END:VCARD
+
